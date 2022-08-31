@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512.00002"
+   version="1.1"
+   id="svg12767"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="kv-logo.svg"
+   inkscape:export-filename="kv-logo-256.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12769"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0507202"
+     inkscape:cx="47.586408"
+     inkscape:cy="251.25623"
+     inkscape:window-width="956"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs12764" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path9650"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:12.6382;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 23.376255,43.906412 v 212.322508 211.8653 h 56.384278 v -112.1153 l 31.239637,55.2739 0.0892,0.15159 31.78424,56.23192 h 61.84816 56.38429 0.72003 55.66558 v -0.457 h 0.65319 L 485.64268,44.362961 H 428.77945 L 317.49143,325.26083 V 43.905855 H 261.10715 204.72296 142.87469 L 79.763544,156.47836 V 43.905855 Z M 172.9793,100.29058 h 88.12473 V 411.25282 H 172.84866 L 85.224417,256.22892 Z" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.6382;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect9654"
+       width="56.383812"
+       height="56.383812"
+       x="204.71759"
+       y="411.25317" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.6382;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect9656"
+       width="56.383812"
+       height="56.383812"
+       x="204.71759"
+       y="43.906078" />
+  </g>
+</svg>

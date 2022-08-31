@@ -1,0 +1,19 @@
+<article class="prose">
+	<pre class="bg-gray-700 text-lg">
+<span class="kvon-comment"># inlined arrays</span>
+<span class="kvon-key">array</span>: <span class="kvon-bracket">[</span><span class="kvon-number">1 true 'str' <span class="kvon-bracket">[</span><span class="kvon-number">true false</span><span class="kvon-bracket">]</span></span><span class="kvon-bracket">]</span>
+
+<span class="kvon-comment"># multi-dimensional arrays</span>
+<span class="kvon-key">multi-dim-array</span>:--
+	<span class="kvon-comment"># primitives and inlined arrays can be</span>
+	<span class="kvon-comment"># placed on one line</span>
+	- <span class="kvon-number">'str 1' 'str 2'</span> <span class="kvon-bracket">[</span><span class="kvon-number">0 1 <span class="kvon-bracket">[</span><span class="kvon-number">true false</span><span class="kvon-bracket">]</span></span><span class="kvon-bracket">]</span>
+	<span class="kvon-comment"># objects and multi line strings have to be</span>
+	<span class="kvon-comment"># placed on separate lines</span>
+	- <span class="kvon-key">key</span>: <span class="kvon-string">'value'</span>
+	- <span class="kvon-multi-line-string">|</span>
+		<span class="kvon-string">line 1</span>
+		<span class="kvon-string">line 2</span>
+		<span class="kvon-string">line 3</span>
+</pre>
+</article>

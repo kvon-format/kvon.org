@@ -1,0 +1,125 @@
+<section class="w-full" id="specifications">
+	<h1 class="title">Specifications</h1>
+
+	<h2 class="title-sub">Objects</h2>
+	<div class="p-2">
+		<p class="prose-xl w-full xl:w-9/12">
+			Objects are collections of keys-value pairs. When the key's value is
+			a primitive (number, string, boolean), or an array of primitives, the
+			key-value pair can be written in one line.
+			<br>
+			If the value is an object then each of the following keys must be
+			written in a new line and indented to the right compared to their
+			root. If the value is omitted it will be assumed to be null.
+			<br>
+			Consider the following KVON and equivalent JSON:
+		</p>
+
+		<br>
+
+		<!-- visible on md and up -->
+		<div class="hidden lg:grid lg:w-full xl:w-9/12">
+			<div class="flex flex-row justify-center">
+				{{@ specifications_examples/objects_kvon}}
+				<br>
+				<div class="ml-3">
+					{{@ specifications_examples/objects_json}}
+				</div>
+			</div>
+		</div>
+
+		<!-- hidden on lg and up -->
+		<div class="lg:hidden">
+			{{@ specifications_examples/objects_kvon}}
+			<br>
+			{{@ specifications_examples/objects_json}}
+		</div>
+	</div>
+
+	<br>
+
+	<h2 class="title-sub">Strings</h2>
+	<div class="p-2">
+		<p class="prose-xl w-full xl:w-9/12">
+			There are two types of string syntaxes: single and multi line.
+			Single line strings must be delimited with either single quotes or
+			double quotes. If the string itself contains quotes, it can be
+			delimited with multiple quotes. For example: if a string contains the
+			character `'`, it can be delimited with `"` or `'''` in order
+			for the `'` not to count as a delimiter.
+			<br>
+			Multi line strings are initiated with the `|` character and the
+			lines must come below it, and indented forward.
+			<br>
+			Consider the following KVON and equivalent JSON:
+		</p>
+
+		<br>
+
+		<!-- visible on md and up -->
+		<div class="hidden lg:grid lg:w-full xl:w-9/12">
+			<div class="flex flex-row justify-center">
+				{{@ specifications_examples/strings_kvon}}
+				<br>
+				<div class="ml-3">
+					{{@ specifications_examples/strings_json}}
+				</div>
+
+			</div>
+		</div>
+
+		<!-- hidden on lg and up -->
+		<div class="lg:hidden">
+			{{@ specifications_examples/strings_kvon}}
+			<br>
+			{{@ specifications_examples/strings_json}}
+		</div>
+	</div>
+
+	<br>
+
+	<h2 class="title-sub">Arrays</h2>
+	<div class="p-2">
+		<p class="prose-xl w-full xl:w-9/12">
+			There are two types of array syntaxes: single and multi line arrays.
+			Single line arrays can contain primitives, and sub single line arrays.
+			Multi line arrays can contain any value, every line can contain any
+			number of values. However, Multi line strings, multi line arrays,
+			and objects must be placed on their lines.
+			Objects are initiated with `:--` if they come after a key, and with
+			a `--` if they come as one of a different multi line array's values.
+			<br>
+			Consider the following KVON and equivalent JSON:
+		</p>
+
+		<br>
+
+		<!-- visible on md and up -->
+		<div class="hidden lg:grid lg:w-full xl:w-9/12">
+			<div class="flex flex-row justify-center">
+				{{@ specifications_examples/arrays_kvon}}
+				<br>
+				<div class="ml-3">
+					{{@ specifications_examples/arrays_json}}
+				</div>
+			</div>
+		</div>
+
+		<!-- hidden on lg and up -->
+		<div class="lg:hidden">
+			{{@ specifications_examples/arrays_kvon}}
+			<br>
+			{{@ specifications_examples/arrays_json}}
+		</div>
+	</div>
+
+	<br>
+
+	<h2 class="title-sub">Indention</h2>
+	<div class="p-2">
+		<p class="prose-xl w-full xl:w-9/12">
+			KVON allows both tab and space indention. KVON parser will auto
+			detect the indention by the first time it is used.
+		</p>
+	</div>
+</section>

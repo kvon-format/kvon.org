@@ -1,0 +1,57 @@
+<!-- visible on md and up -->
+<div class="hidden lg:grid lg:w-full">
+	<div class="flex flex-row">
+		<div class="col p-2">
+			{{@ intro_examples/key_value }}
+
+			<br />
+
+			{{@ intro_examples/primitives }}
+		</div>
+
+		<br />
+
+		<div class="col p-2">
+			{{@ intro_examples/nesting_keys }}
+
+			<br />
+
+			{{@ intro_examples/arrays }}
+		</div>
+
+	</div>
+</div>
+
+<!-- hidden on lg and up -->
+<div class="lg:hidden">
+	{{@ intro_examples/key_value }}
+
+	<br />
+
+	{{@ intro_examples/primitives }}
+
+	<br />
+
+	{{@ intro_examples/nesting_keys }}
+
+	<br />
+
+	{{@ intro_examples/arrays }}
+</div>
+
+<!-- <div class="sm:invisible md:invisible lg:visible grid grid-cols-4 gap-4"> -->
+<!-- <div class="hidden md:visible">
+	{{@ intro_examples/key_value }}
+
+	<br />
+
+	{{@ intro_examples/primitives }}
+
+	<br />
+
+	{{@ intro_examples/nesting_keys }}
+
+	<br />
+
+	{{@ intro_examples/arrays }}
+</div> -->

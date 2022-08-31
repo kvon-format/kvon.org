@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+	@apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.navigation-link {
+	@apply
+		hover:text-gray-900
+		hover:font-bold
+		hover:bg-gray-100
+		text-gray-500
+		flex
+		text-2xl
+		p-2
+		text-ellipsis
+		rounded
+		transition duration-100
+		ease-in-out;
+}
+
+.navigation-link-bright {
+	@apply
+		hover:font-bold
+		bg-gray-100
+		text-blue-500
+		text-2xl
+		p-2
+		text-ellipsis
+		rounded
+		transition duration-100
+		ease-in-out;
+}
+
+.library-link {
+	@apply
+		hover:text-blue-500
+		text-blue-600
+		hover:font-bold
+		text-center
+		text-xl;
+}
+
+.title {
+	@apply text-3xl font-bold text-gray-800 mb-3;
+}
+
+.title-sub {
+	@apply text-2xl font-bold text-gray-800 mb-2;
+}
+
+.kvon-key {
+	@apply text-blue-200;
+}
+
+.kvon-string {
+	@apply text-orange-400;
+}
+
+.kvon-number {
+	@apply text-orange-200;
+}
+
+.kvon-boolean {
+	@apply text-red-400;
+}
+
+.kvon-null {
+	@apply text-gray-400;
+}
+
+.kvon-comment {
+	@apply text-gray-400;
+}
+
+.kvon-bracket {
+	@apply text-purple-400;
+}
+
+.kvon-multi-line-string {
+	@apply text-purple-400;
+}
+
+.json-curly {
+	@apply text-gray-50;
+}
+
+.json-square {
+	@apply text-gray-300;
+}
+
+.json-key {
+	@apply kvon-key;
+}
+
+.json-string {
+	@apply kvon-string;
+}
+
+.json-number {
+	@apply kvon-number;
+}
+
+.json-boolean {
+	@apply kvon-boolean;
+}
+
+.json-null {
+	@apply kvon-null;
+}
